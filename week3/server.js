@@ -8,7 +8,7 @@ const { Pool } = require("pg");
 const PORT = Number(process.env.PORT) || 3000;
 // 127.0.0.1로 바꾸면 컨테이너 밖에서 접속이 안 됩니다.
 const HOST = process.env.HOST || "0.0.0.0";
-const GREETING = process.env.GREETING || "Hello from a container!";
+const GREETING = process.env.GREETING || "ssj container says hi!";
 const startedAt = new Date();
 
 // ---- DB 설정 -------------------------------------------------------------
